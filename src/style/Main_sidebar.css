@@ -1,0 +1,33 @@
+.side-el {
+  display: flex;
+  justify-content: center;
+  box-shadow: 1px 2px 8px #e1e1e1;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.side-el:hover {
+  background: #eee;
+}
+.side-el:active {
+  color: green;
+}
+.nav_nav-open {
+  /* display: none; */
+}
+.nav_nav-closed {
+  display: none;
+}
+aside > ul {
+  display: flex;
+  flex-direction: column;
+  transition: 10s;
+}
+.rotate-45 {
+  transform: rotate(45deg);
+  transition: transform 0.5s ease; /* Smooth transition for rotation */
+}
+
+.rotate-0 {
+  transform: rotate(0deg);
+  transition: transform 0.5s ease; /* Smooth transition for returning to original rotation */
+}

@@ -1,0 +1,40 @@
+@media (min-width: 1519px) {
+  .container {
+    max-width: 1519px;
+  }
+}
+.ul_el {
+    list-style: none;
+    padding:  20px 0 0 0;
+  }
+  
+  .a_el {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+.a_el_B{
+    display: block;
+}
+.hover-container{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  width: 100px;
+}
+.popup{
+  width: inherit;
+  display: none;
+  position: absolute;
+  z-index: 10;
+
+}
+.hover-container:hover .popup {
+  display: block;
+  text-align: center;
+  background-color: white;
+  /* opacity: 1; */
+  pointer-events: auto; /* Makes sure you can interact with it when it's visible */
+}
